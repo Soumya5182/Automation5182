@@ -9,4 +9,5 @@ read the number of rows
 read the excel data
     [Arguments]     ${sheetname}    ${row_number}       ${cell_number}
     ${Read_excel_data}=     fetch_cell_data     ${sheetname}   ${row_number}     ${cell_number}
-    [Return]  ${Read_excel_data}
+    [Return]  ${Read_excel_data
+	click element  xpath://span[text()=‘${File_name}’]
